@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JOBIT"
+        tools:targetApi="31">
+        <activity
+            android:name=".JobAcceptedForWorkerNext"
+            android:exported="false" />
+        <activity
+            android:name=".JobAcceptedForWorker"
+            android:exported="false" />
+        <activity
+            android:name=".RequestForWorkerNext"
+            android:exported="false" />
+        <activity
+            android:name=".RequestForWorker"
+            android:exported="false" />
+        <activity
+            android:name=".HiredForClientNext"
+            android:exported="false" />
+        <activity
+            android:name=".HiredForClient"
+            android:exported="false" />
+        <activity
+            android:name=".RequestsForClientNext"
+            android:exported="false" />
+        <activity
+            android:name=".RequestsForClient"
+            android:exported="false" />
+        <activity
+            android:name=".SearchWorkerNext"
+            android:exported="false" />
+        <activity
+            android:name=".SearchWorker"
+            android:exported="false" />
+        <activity
+            android:name=".WorkerProfileUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".ClientProfileUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".WorkerProfilePage"
+            android:exported="false" />
+        <activity
+            android:name=".ClientProfilePage"
+            android:exported="false"
+            android:label="@string/title_activity_client_profile_page"
+            android:theme="@style/Theme.JOBIT.NoActionBar" />
+        <activity
+            android:name=".AfterRegisterWorker"
+            android:exported="false" />
+        <activity
+            android:name=".AfterRegisterClient"
+            android:exported="false" />
+        <activity
+            android:name=".workermainpage"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterWorker"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterClient"
+            android:exported="false" />
+        <activity
+            android:name=".notecommon"
+            android:exported="false" />
+        <activity
+            android:name=".viewnote"
+            android:exported="false" />
+        <activity
+            android:name=".addnote"
+            android:exported="false" />
+        <activity
+            android:name=".clientmainpage"
+            android:exported="false" />
+        <activity
+            android:name=".LoginWorker"
+            android:exported="false" />
+        <activity
+            android:name=".LoginClient"
+            android:exported="false" />
+        <activity
+            android:name=".ClientWorkerChoice"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

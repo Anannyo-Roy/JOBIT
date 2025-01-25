@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#019E9D"
+    android:padding="10dp"
+    tools:context="AddNoteActivity">
+
+    <TextView
+        android:id="@+id/titletextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="NOTE"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:layout_width="361dp"
+        android:layout_height="479dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="10dp"
+            android:text="TextView"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="324dp"
+            android:layout_height="389dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#30698269"
+            android:gravity="top"
+            android:padding="10dp" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/savebtn"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:onClick="ondelete"
+        android:shadowColor="@color/black"
+        android:text="DELETE NOTE"
+        android:textColor="#698269" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/updatebtn"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:onClick="onsaveclick"
+        android:shadowColor="@color/black"
+        android:text="SAVE CHANGES"
+        android:textColor="#698269" />
+</LinearLayout>

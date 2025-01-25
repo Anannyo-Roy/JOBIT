@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Jobit</string>
+    //Headings
+    <string name="heading_one">User Friendly</string>
+    <string name="heading_two">Trustworthy</string>
+    <string name="heading_three">Job Oppurtunities</string>
+    <string name="heading_fourth">Even Supports Low-End Devices</string>
+
+    //Description
+    <string name="desc_one">We can promise you that our app is easily accessible and user-friendly.</string>
+    <string name="desc_two">We vouch for the safety and dependability of our software</string>
+    <string name="desc_three">One of the main purposes of this software is to make it easier to find more job opportunities</string>
+    <string name="desc_fourth">Our application can run on devices that have as little as Android 5.0 Lollipop</string>
+
+    <string name="continueasclient">CONTINUE AS CLIENT</string>
+    <string name="continueasguest">CONTINUE AS WORKER</string>
+    <string name="title_activity_client_profile_page">ClientProfilePage</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>
